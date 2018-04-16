@@ -1,0 +1,10 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import './css/icons.css';
+import './css/animation.css';
+import App from './App';
+import registerServiceWorker from './registerServiceWorker';
+
+ReactDOM.render(<App />, document.getElementById('root'));
+registerServiceWorker();

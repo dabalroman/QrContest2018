@@ -1,0 +1,271 @@
+$secondary-color: #009688;
+$secondary-font-color: #ffffff;
+$quiz-question-bg-color: #dfdfdf;
+$points-color: #1858d1;
+$medium-text: 1.25rem;
+$big-text: 2rem;
+$shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+
+html {
+  height: 100%;
+}
+
+body{
+  position: relative;
+  margin: 0;
+  padding-bottom: 21rem;
+  min-height: 100%;
+  box-sizing: border-box;
+}
+
+.page-header{
+  background-color: $secondary-color;
+  color: $secondary-font-color;
+  text-align: center;
+  width: 100%;
+  padding: 2rem 0;
+
+  .big-logo{
+    font-size: 3rem;
+  }
+
+  .text{
+    font-size: 2rem;
+  }
+}
+
+.about{
+  text-align: justify;
+}
+
+.quiz{
+  margin: 2rem 0;
+  text-align: left;
+
+  .row{
+    margin: 0;
+  }
+
+  .col-sm-6{
+    margin: 0;
+    padding: 0.5rem;
+  }
+
+  .quiz-btn{
+    width: 100%;
+    height: 3rem;
+    line-height: 1rem;
+    margin: 0;
+  }
+
+  .quiz-question{
+    background-color: $quiz-question-bg-color;
+    margin: 1rem -1.25rem;
+    padding: 1.25rem;
+    text-align: center;
+  }
+
+  .answer{
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 1rem;
+  }
+
+  .quiz-points{
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 1rem;
+  }
+
+  .quiz-answer{
+    background-color: $secondary-color;
+    color: $secondary-font-color;
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: 0.125rem;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    text-align: center;
+    vertical-align: middle;
+    min-height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &.quiz-answer-a{
+      background-color: #3dc551;
+    }
+    &.quiz-answer-b{
+      background-color: #d63a2d;
+    }
+    &.quiz-answer-c{
+      background-color: #509ad6;
+    }
+    &.quiz-answer-d{
+      background-color: #a940e2;
+    }
+
+    &:hover{
+      opacity: 0.8;
+      cursor: pointer;
+    }
+  }
+}
+
+.toolbar{
+  font-size: $medium-text;
+  padding: $medium-text/2 0;
+  width: 100%;
+  background-color: $secondary-color;
+  color: $secondary-font-color;
+  text-align: center;
+  box-shadow: $shadow;
+
+  @media only screen and (min-width: 576px) {
+    .logo {
+      text-align: left;
+    }
+
+    .points {
+      text-align: right;
+    }
+  }
+
+  @media only screen and (max-width: 576px) {
+    .logo {
+      font-size: $big-text;
+    }
+  }
+}
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: $medium-text 0;
+  width: 100%;
+  height: 21rem;
+  background-color: $secondary-color;
+  color: $secondary-font-color;
+  text-align: center;
+  box-shadow: $shadow;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  button{
+    margin-bottom: 1rem;
+  }
+
+  .QR{
+    font-size: $big-text;
+  }
+}
+
+.ranking{
+
+  .overflow{
+    overflow-x: scroll;
+  }
+
+  table{
+    margin-bottom: 0;
+
+    tr:nth-of-type(2){
+      font-size: 1.3rem;
+    }
+
+    tr:nth-of-type(3){
+      font-size: 1.2rem;
+    }
+
+    tr:nth-of-type(4){
+      font-size: 1.1rem;
+    }
+  }
+
+  .color-green{
+    color: green;
+  }
+
+  .color-red{
+    color: red;
+  }
+}
+
+.scan-qr{
+  .card{
+    p{
+      text-align: justify;
+      padding: 1rem 0 0 0;
+      margin: 0;
+    }
+  }
+}
+
+.qr{
+  .qr-data{
+    margin-top: 1rem;
+    text-align: center;
+
+    .congratulations{
+      font-size: 1.5rem;
+    }
+
+    .name{
+      font-size: $medium-text;
+    }
+
+    .value{
+      font-size: $big-text;
+    }
+
+    .description{
+      background-color: $quiz-question-bg-color;
+      margin: 1rem -1.25rem;
+      padding: 1.25rem;
+      text-align: center;
+    }
+  }
+}
+
+
+.userLogged{
+  width: 100%;
+  background-color: #54ff4c;
+}
+
+.highlight{
+  color: $points-color;
+}
+
+.card{
+  margin: 1rem 0;
+
+  .card-title{
+    color: $secondary-font-color;
+    background-color: $secondary-color;
+    margin: -1.25rem -1.25rem 0 -1.25rem;
+    padding: 1.25rem;
+  }
+}
+
+.input-lg{
+  margin: 1.5rem 0;
+}
+
+.input-lg-b{
+  margin: 0 0 1.5rem 0;
+}
+
+.btn-right{
+  text-align: right;
+
+  .btn{
+    display: inline-block;
+  }
+}
+
+form{
+  margin: 0;
+}

@@ -1,0 +1,177 @@
+html {
+  height: 100%; }
+
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 21rem;
+  min-height: 100%;
+  box-sizing: border-box; }
+
+.page-header {
+  background-color: #009688;
+  color: #ffffff;
+  text-align: center;
+  width: 100%;
+  padding: 2rem 0; }
+  .page-header .big-logo {
+    font-size: 3rem; }
+  .page-header .text {
+    font-size: 2rem; }
+
+.about {
+  text-align: justify; }
+
+.quiz {
+  margin: 2rem 0;
+  text-align: left; }
+  .quiz .row {
+    margin: 0; }
+  .quiz .col-sm-6 {
+    margin: 0;
+    padding: 0.5rem; }
+  .quiz .quiz-btn {
+    width: 100%;
+    height: 3rem;
+    line-height: 1rem;
+    margin: 0; }
+  .quiz .quiz-question {
+    background-color: #dfdfdf;
+    margin: 1rem -1.25rem;
+    padding: 1.25rem;
+    text-align: center; }
+  .quiz .answer {
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 1rem; }
+  .quiz .quiz-points {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 1rem; }
+  .quiz .quiz-answer {
+    background-color: #009688;
+    color: #ffffff;
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: 0.125rem;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    text-align: center;
+    vertical-align: middle;
+    min-height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .quiz .quiz-answer.quiz-answer-a {
+      background-color: #3dc551; }
+    .quiz .quiz-answer.quiz-answer-b {
+      background-color: #d63a2d; }
+    .quiz .quiz-answer.quiz-answer-c {
+      background-color: #509ad6; }
+    .quiz .quiz-answer.quiz-answer-d {
+      background-color: #a940e2; }
+    .quiz .quiz-answer:hover {
+      opacity: 0.8;
+      cursor: pointer; }
+
+.toolbar {
+  font-size: 1.25rem;
+  padding: 0.625rem 0;
+  width: 100%;
+  background-color: #009688;
+  color: #ffffff;
+  text-align: center;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
+  @media only screen and (min-width: 576px) {
+    .toolbar .logo {
+      text-align: left; }
+    .toolbar .points {
+      text-align: right; } }
+  @media only screen and (max-width: 576px) {
+    .toolbar .logo {
+      font-size: 2rem; } }
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1.25rem 0;
+  width: 100%;
+  height: 21rem;
+  background-color: #009688;
+  color: #ffffff;
+  text-align: center;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0; }
+  .footer button {
+    margin-bottom: 1rem; }
+  .footer .QR {
+    font-size: 2rem; }
+
+.ranking .overflow {
+  overflow-x: scroll; }
+.ranking table {
+  margin-bottom: 0; }
+  .ranking table tr:nth-of-type(2) {
+    font-size: 1.3rem; }
+  .ranking table tr:nth-of-type(3) {
+    font-size: 1.2rem; }
+  .ranking table tr:nth-of-type(4) {
+    font-size: 1.1rem; }
+.ranking .color-green {
+  color: green; }
+.ranking .color-red {
+  color: red; }
+
+.scan-qr .card p {
+  text-align: justify;
+  padding: 1rem 0 0 0;
+  margin: 0; }
+
+.qr .qr-data {
+  margin-top: 1rem;
+  text-align: center; }
+  .qr .qr-data .congratulations {
+    font-size: 1.5rem; }
+  .qr .qr-data .name {
+    font-size: 1.25rem; }
+  .qr .qr-data .value {
+    font-size: 2rem; }
+  .qr .qr-data .description {
+    background-color: #dfdfdf;
+    margin: 1rem -1.25rem;
+    padding: 1.25rem;
+    text-align: center; }
+
+.userLogged {
+  width: 100%;
+  background-color: #54ff4c; }
+
+.highlight {
+  color: #1858d1; }
+
+.card {
+  margin: 1rem 0; }
+  .card .card-title {
+    color: #ffffff;
+    background-color: #009688;
+    margin: -1.25rem -1.25rem 0 -1.25rem;
+    padding: 1.25rem; }
+
+.input-lg {
+  margin: 1.5rem 0; }
+
+.input-lg-b {
+  margin: 0 0 1.5rem 0; }
+
+.btn-right {
+  text-align: right; }
+  .btn-right .btn {
+    display: inline-block; }
+
+form {
+  margin: 0; }
+
+/*# sourceMappingURL=App.css.map */
