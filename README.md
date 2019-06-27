@@ -1,6 +1,5 @@
 # QrContest 2018
-QrContest is an app created for evenct called IT-DAY 2018 which took place in ZSEO Gniezno high school.
-Official contest webpage: [QRCONTEST](http://it-day.pl/qrcontest/)
+QrContest is an app created for event called IT-DAY 2018 which took place in ZSEO Gniezno high school.
 
 ## About QrContest itself
 The contest is all about finding and collecting QRs. They were printed and placed in various places in school building.
